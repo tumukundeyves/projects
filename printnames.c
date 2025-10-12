@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 
 /*void    ft_names()
 {
@@ -13,13 +14,23 @@ int main()
     return (0);
 }*/
 
-int main(void)
+/*int main(void)
 {
     char name[] = "yves";
     char surname[] = "Tumukunde";
 
-    write(1,&name,1);
-    write(1,"my name is &name:",10);
+   
+    write(1,"my name is: ",12);
+    write(1, name,4);
 
     return(0);
+}*/
+
+int main(void)
+{
+    char name[] ="yves";
+    char username[] = "tumukunde";
+
+    printf("my name is %s\n",name);
+    printf("my username is %s\n", username);
 }
