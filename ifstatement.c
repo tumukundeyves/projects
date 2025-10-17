@@ -19,7 +19,7 @@ int main(void)
 
     else
     {
-        printf("you repeated somewhere during your studies or began your studies late\n"); // to specify block of code to be executed , if first condition is false
+        printf("you repeated somewhere during your studies or began your studies late\n"); // to specify block of code to be executed , if first and second  condition is false
     }
     printf("thank you\n");
     return (0);
