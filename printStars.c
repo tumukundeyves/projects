@@ -13,9 +13,9 @@ int main(void)
         j = 0;
         while (j < 5)
         {   
-            if( i == 1 && j <=3)
+            if( i == 1 && j >= 1 && j<=3)
             {
-                printf(" ");
+                printf("  ");
             }
             else{
                 printf("* ");
@@ -26,4 +26,4 @@ int main(void)
         i++;
         printf("\n");
     }
-}
+}  
