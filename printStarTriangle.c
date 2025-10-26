@@ -15,6 +15,11 @@ int main(void)
             {
                 printf("  ");
             }
+            else if((i == 1 && j == 3) || (i == 2 && ( j != 1 && j != 5)))
+            { 
+                 printf("  ");
+            }
+            
 
             else{
                printf("* ");
@@ -25,6 +30,5 @@ int main(void)
         }
          printf("\n");
         i++;
-     }
-     
+     }     
 }
